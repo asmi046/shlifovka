@@ -1,0 +1,205 @@
+a {
+  color: #ffffff
+}
+
+a:hover {
+  color: #000000
+}
+
+.page-header .page-header-title,
+.page-header.background-image-page-header .page-header-title {
+  color: #000000
+}
+
+.page-numbers a,
+.page-numbers span:not(.elementor-screen-only),
+.page-links span {
+  color: #444444
+}
+
+.page-numbers a:hover,
+.page-links a:hover span,
+.page-numbers.current,
+.page-numbers.current:hover {
+  color: #4c4c4c
+}
+
+label,
+body div.wpforms-container-full .wpforms-form .wpforms-field-label {
+  color: #898989
+}
+
+form input[type="text"]:focus,
+form input[type="password"]:focus,
+form input[type="email"]:focus,
+form input[type="tel"]:focus,
+form input[type="url"]:focus,
+form input[type="search"]:focus,
+form textarea:focus,
+.select2-drop-active,
+.select2-dropdown-open.select2-drop-above .select2-choice,
+.select2-dropdown-open.select2-drop-above .select2-choices,
+.select2-drop.select2-drop-above.select2-drop-active,
+.select2-container-active .select2-choice,
+.select2-container-active .select2-choices {
+  border-color: #b5b5b5
+}
+
+body div.wpforms-container-full .wpforms-form input:focus,
+body div.wpforms-container-full .wpforms-form textarea:focus,
+body div.wpforms-container-full .wpforms-form select:focus {
+  border-color: #b5b5b5
+}
+
+form input[type="text"],
+form input[type="password"],
+form input[type="email"],
+form input[type="url"],
+form input[type="date"],
+form input[type="month"],
+form input[type="time"],
+form input[type="datetime"],
+form input[type="datetime-local"],
+form input[type="week"],
+form input[type="number"],
+form input[type="search"],
+form input[type="tel"],
+form input[type="color"],
+form select,
+form textarea {
+  color: #3f3f3f
+}
+
+body div.wpforms-container-full .wpforms-form input[type=date],
+body div.wpforms-container-full .wpforms-form input[type=datetime],
+body div.wpforms-container-full .wpforms-form input[type=datetime-local],
+body div.wpforms-container-full .wpforms-form input[type=email],
+body div.wpforms-container-full .wpforms-form input[type=month],
+body div.wpforms-container-full .wpforms-form input[type=number],
+body div.wpforms-container-full .wpforms-form input[type=password],
+body div.wpforms-container-full .wpforms-form input[type=range],
+body div.wpforms-container-full .wpforms-form input[type=search],
+body div.wpforms-container-full .wpforms-form input[type=tel],
+body div.wpforms-container-full .wpforms-form input[type=text],
+body div.wpforms-container-full .wpforms-form input[type=time],
+body div.wpforms-container-full .wpforms-form input[type=url],
+body div.wpforms-container-full .wpforms-form input[type=week],
+body div.wpforms-container-full .wpforms-form select,
+body div.wpforms-container-full .wpforms-form textarea {
+  color: #3f3f3f
+}
+
+body .theme-button,
+body input[type="submit"],
+body button[type="submit"],
+body button,
+body .button,
+body div.wpforms-container-full .wpforms-form input[type=submit],
+body div.wpforms-container-full .wpforms-form button[type=submit],
+body div.wpforms-container-full .wpforms-form .wpforms-page-button {
+  background-color: #ffffff
+}
+
+body .theme-button:hover,
+body input[type="submit"]:hover,
+body button[type="submit"]:hover,
+body button:hover,
+body .button:hover,
+body div.wpforms-container-full .wpforms-form input[type=submit]:hover,
+body div.wpforms-container-full .wpforms-form input[type=submit]:active,
+body div.wpforms-container-full .wpforms-form button[type=submit]:hover,
+body div.wpforms-container-full .wpforms-form button[type=submit]:active,
+body div.wpforms-container-full .wpforms-form .wpforms-page-button:hover,
+body div.wpforms-container-full .wpforms-form .wpforms-page-button:active {
+  background-color: #ffffff
+}
+
+/* Header CSS */
+#site-logo #site-logo-inner,
+.oceanwp-social-menu .social-menu-inner,
+#site-header.full_screen-header .menu-bar-inner,
+.after-header-content .after-header-content-inner {
+  height: 81px
+}
+
+#site-navigation-wrap .dropdown-menu>li>a,
+.oceanwp-mobile-menu-icon a,
+.mobile-menu-close,
+.after-header-content-inner>a {
+  line-height: 81px
+}
+
+#site-header,
+.has-transparent-header .is-sticky #site-header,
+.has-vh-transparent .is-sticky #site-header.vertical-header,
+#searchform-header-replace {
+  background-color: #d22b2e
+}
+
+#site-header.has-header-media .overlay-header-media {
+  background-color: #000000
+}
+
+#searchform-dropdown input {
+  color: #3a3a3a
+}
+
+#site-navigation-wrap .dropdown-menu>li>a,
+.oceanwp-mobile-menu-icon a,
+#searchform-header-replace-close {
+  color: #ffffff
+}
+
+#site-navigation-wrap .dropdown-menu>li>a:hover,
+.oceanwp-mobile-menu-icon a:hover,
+#searchform-header-replace-close:hover {
+  color: #000000
+}
+
+#site-navigation-wrap .dropdown-menu>.current-menu-item>a,
+#site-navigation-wrap .dropdown-menu>.current-menu-ancestor>a,
+#site-navigation-wrap .dropdown-menu>.current-menu-item>a:hover,
+#site-navigation-wrap .dropdown-menu>.current-menu-ancestor>a:hover {
+  color: #ffffff
+}
+
+#site-navigation-wrap .dropdown-menu>li>a {
+  background-color: #282828
+}
+
+.dropdown-menu ul li a.menu-link {
+  color: #000000
+}
+
+/* Sidebar CSS */
+.widget-title {
+  margin-bottom: 18px
+}
+
+/* Footer Bottom CSS */
+#footer-bottom {
+  padding: 30px 0 30px 0
+}
+
+/* Typography CSS */
+#site-logo a.site-logo-text {
+  font-size: 27px
+}
+
+#site-navigation-wrap .dropdown-menu>li>a,
+#site-header.full_screen-header .fs-dropdown-menu>li>a,
+#site-header.top-header #site-navigation-wrap .dropdown-menu>li>a,
+#site-header.center-header #site-navigation-wrap .dropdown-menu>li>a,
+#site-header.medium-header #site-navigation-wrap .dropdown-menu>li>a,
+.oceanwp-mobile-menu-icon a {
+  font-family: Cuprum;
+  font-size: 20px
+}
+
+.blog-entry.post .blog-entry-header .entry-title a {
+  color: #f9f9f9
+}
+
+.sidebar-box .widget-title {
+  color: #f7f7f7
+}
