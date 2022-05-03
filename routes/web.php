@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\ContactsController;
+use App\Http\Controllers\AboutController;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,4 +16,6 @@ use App\Http\Controllers\HomeController;
 |
 */
 
-Route::get('/', [HomeController::class, 'index']);
+Route::get('/', [HomeController::class, 'index'])->name("index_page");
+Route::get('/contacts', [ContactsController::class, 'contacts'])->name("contacts_page");
+Route::get('/about', [AboutController::class, 'about'])->name("about_page");
