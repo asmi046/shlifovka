@@ -6,6 +6,14 @@
   <link rel="profile" href="https://gmpg.org/xfn/11">
 
   <title>@yield('title')</title>
+
+  <link rel="apple-touch-icon" sizes="256x256" href="{{asset('img/favicon/icon256.png')}}">
+  <link rel="apple-touch-icon" sizes="128x128" href="{{asset('img/favicon/icon128.png')}}">
+  <link rel="icon" type="image/png" sizes="64x64" href="{{asset('img/favicon/icon64.png')}}">
+  <link rel="icon" type="image/png" sizes="32x32" href="{{asset('img/favicon/icon32.png')}}">
+  <link rel="icon" type="image/png" sizes="16x16" href="{{asset('img/favicon/icon16.png')}}">
+  <link rel="mask-icon" href="{{asset('img/favicon/fav_svg.svg')}}" color="#00abaf">
+
   <meta name='robots' content='max-image-preview:large' />
   <link rel="pingback" href="http://localhost/shlifovka/xmlrpc.php">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -72,7 +80,7 @@
     href="http://localhost/shlifovka/index.php?rest_route=%2Foembed%2F1.0%2Fembed&#038;url=http%3A%2F%2Flocalhost%2Fshlifovka%2F&#038;format=xml" />
   <link rel="stylesheet" href="css/wp-custom.css">
   <link rel="stylesheet" href="css/general.css">
-
+  <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body
@@ -121,14 +129,14 @@
 
           </div><!-- #site-navigation-wrap -->
 
-          <div id="vertical-searchform" class="header-searchform-wrap clr">
+          {{-- <div id="vertical-searchform" class="header-searchform-wrap clr">
             <form method="get" action="http://localhost/" class="header-searchform" role="search"
               aria-label="Vertical Header Search">
               <input type="search" name="s" autocomplete="off" value="" />
               <button class="search-submit"><i class="icon-magnifier"></i></button>
               <div class="search-bg"></div>
             </form>
-          </div><!-- #vertical-searchform -->
+          </div><!-- #vertical-searchform --> --}}
 
           <div class="oceanwp-mobile-menu-icon clr mobile-right">
 
