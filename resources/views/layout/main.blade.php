@@ -63,6 +63,8 @@
   <link rel="stylesheet" href="css/fontawesome.min.css">
   <link rel="stylesheet" href="css/solid.min.css">
 
+  <link rel="stylesheet" href="{{asset('css/swiper.min.css')}}">
+
   <script src="js/jquery/jquery.min.js"></script>
   <script src="js/jquery/jquery-migrate.min.js"></script>
 
@@ -214,7 +216,7 @@
               </div>
             </div><!-- #footer-bottom-menu -->
 
-           
+
             <!-- #copyright -->
 
           </div><!-- #footer-bottom-inner -->
@@ -270,7 +272,9 @@
 <script src="js/frontend-modules.min.js"></script>
 {{-- <script src="js/waypoints.min.js"></script> --}}
 <script src="js/core.min.js"></script>
-<script src="js/swiper.min.js"></script>
+<script src="{{asset( 'js/swiper.min.js' ) }}"></script>
+<script src="{{asset( 'js/fslightbox.js' ) }}"></script>
+<script src="{{asset( 'js/main-script.js' ) }}"></script>
 {{-- <script src="js/share-link.min.js"></script> --}}
 {{-- <script src="js/dialog.min.js"></script> --}}
 

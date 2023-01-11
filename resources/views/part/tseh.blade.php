@@ -59,111 +59,88 @@ data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
         data-settings="{&quot;slides_to_show&quot;:&quot;3&quot;,&quot;navigation&quot;:&quot;arrows&quot;,&quot;image_spacing_custom&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;20&quot;,&quot;sizes&quot;:[]},&quot;autoplay&quot;:&quot;yes&quot;,&quot;pause_on_hover&quot;:&quot;yes&quot;,&quot;pause_on_interaction&quot;:&quot;yes&quot;,&quot;autoplay_speed&quot;:5000,&quot;infinite&quot;:&quot;yes&quot;,&quot;speed&quot;:500}"
         data-widget_type="image-carousel.default">
         <div class="elementor-widget-container">
-          <div class="elementor-image-carousel-wrapper swiper-container" dir="ltr">
+          <div class="elementor-image-carousel-wrapper swiper-container gal-swiper-container" dir="ltr">
+
             <div class="elementor-image-carousel swiper-wrapper">
-              <div class="swiper-slide"><a data-elementor-open-lightbox="yes"
-                  data-elementor-lightbox-slideshow="1cf89ff8"
-                  data-elementor-lightbox-title="IMG_2571-min"
-                  href="img/slider-1.jpg">
+              <div class="swiper-slide"><a data-fslightbox="sg1"
+                  href="img/big_pict/slide_1_big.jpg">
                   <figure class="swiper-slide-inner"><img class="swiper-slide-image"
                       src="img/slider-1.jpg"
                       alt="IMG_2571-min" /></figure>
                 </a></div>
-              <div class="swiper-slide"><a data-elementor-open-lightbox="yes"
-                  data-elementor-lightbox-slideshow="1cf89ff8"
-                  data-elementor-lightbox-title="IMG_2524-min"
-                  href="img/slider-2.jpg">
+              <div class="swiper-slide"><a data-fslightbox="sg1"
+                  href="img/big_pict/slide_2_big.jpg">
                   <figure class="swiper-slide-inner"><img class="swiper-slide-image"
                       src="img/slider-2.jpg"
                       alt="IMG_2524-min" /></figure>
                 </a></div>
-              <div class="swiper-slide"><a data-elementor-open-lightbox="yes"
-                  data-elementor-lightbox-slideshow="1cf89ff8"
-                  data-elementor-lightbox-title="IMG_2526-min"
-                  href="img/slider-3.jpg">
+              <div class="swiper-slide"><a data-fslightbox="sg1"
+                  href="img/big_pict/slide_3_big.jpg">
                   <figure class="swiper-slide-inner"><img class="swiper-slide-image"
                       src="img/slider-3.jpg"
                       alt="IMG_2526-min" /></figure>
                 </a></div>
-              <div class="swiper-slide"><a data-elementor-open-lightbox="yes"
-                  data-elementor-lightbox-slideshow="1cf89ff8"
-                  data-elementor-lightbox-title="IMG_2528-min"
-                  href="img/slider-4.jpg">
+              <div class="swiper-slide"><a data-fslightbox="sg1"
+                  href="img/big_pict/slide_4_big.jpg">
                   <figure class="swiper-slide-inner"><img class="swiper-slide-image"
                       src="img/slider-4.jpg"
                       alt="IMG_2528-min" /></figure>
                 </a></div>
-              <div class="swiper-slide"><a data-elementor-open-lightbox="yes"
-                  data-elementor-lightbox-slideshow="1cf89ff8"
-                  data-elementor-lightbox-title="IMG_2530-min"
-                  href="img/slider-5.jpg">
+              <div class="swiper-slide"><a data-fslightbox="sg1"
+                  href="img/big_pict/slide_5_big.jpg">
                   <figure class="swiper-slide-inner"><img class="swiper-slide-image"
                       src="img/slider-5.jpg"
                       alt="IMG_2530-min" /></figure>
                 </a></div>
-              <div class="swiper-slide"><a data-elementor-open-lightbox="yes"
-                  data-elementor-lightbox-slideshow="1cf89ff8"
-                  data-elementor-lightbox-title="IMG_2531-min"
-                  href="img/slider-6.jpg">
+              <div class="swiper-slide"><a data-fslightbox="sg1"
+                  href="img/big_pict/slide_6_big.jpg">
                   <figure class="swiper-slide-inner"><img class="swiper-slide-image"
                       src="img/slider-6.jpg"
                       alt="IMG_2531-min" /></figure>
                 </a></div>
-              <div class="swiper-slide"><a data-elementor-open-lightbox="yes"
-                  data-elementor-lightbox-slideshow="1cf89ff8"
-                  data-elementor-lightbox-title="IMG_2541-min"
-                  href="img/slider-7.jpg">
+              <div class="swiper-slide"><a data-fslightbox="sg1"
+                  href="img/big_pict/slide_7_big.jpg">
                   <figure class="swiper-slide-inner"><img class="swiper-slide-image"
                       src="img/slider-7.jpg"
                       alt="IMG_2541-min" /></figure>
                 </a></div>
-              <div class="swiper-slide"><a data-elementor-open-lightbox="yes"
-                  data-elementor-lightbox-slideshow="1cf89ff8"
-                  data-elementor-lightbox-title="IMG_2544-min"
-                  href="img/slider-8.jpg">
+              <div class="swiper-slide"><a data-fslightbox="sg1"
+                  href="img/big_pict/slide_8_big.jpg">
                   <figure class="swiper-slide-inner"><img class="swiper-slide-image"
                       src="img/slider-8.jpg"
                       alt="IMG_2544-min" /></figure>
                 </a></div>
-              <div class="swiper-slide"><a data-elementor-open-lightbox="yes"
-                  data-elementor-lightbox-slideshow="1cf89ff8"
-                  data-elementor-lightbox-title="IMG_2550-min"
-                  href="img/slider-9.jpg">
+              <div class="swiper-slide"><a data-fslightbox="sg1"
+                  href="img/big_pict/slide_9_big.jpg">
                   <figure class="swiper-slide-inner"><img class="swiper-slide-image"
                       src="img/slider-9.jpg"
                       alt="IMG_2550-min" /></figure>
                 </a></div>
-              <div class="swiper-slide"><a data-elementor-open-lightbox="yes"
-                  data-elementor-lightbox-slideshow="1cf89ff8"
-                  data-elementor-lightbox-title="IMG_2564-min"
-                  href="img/slider-10.jpg">
+              <div class="swiper-slide"><a data-fslightbox="sg1"
+                  href="img/big_pict/slide_10_big.jpg">
                   <figure class="swiper-slide-inner"><img class="swiper-slide-image"
                       src="img/slider-10.jpg"
                       alt="IMG_2564-min" /></figure>
                 </a></div>
-              <div class="swiper-slide"><a data-elementor-open-lightbox="yes"
-                  data-elementor-lightbox-slideshow="1cf89ff8"
-                  data-elementor-lightbox-title="IMG_2565-min"
-                  href="img/slider-11.jpg">
+              <div class="swiper-slide"><a data-fslightbox="sg1"
+                  href="img/big_pict/slide_11_big.jpg">
                   <figure class="swiper-slide-inner"><img class="swiper-slide-image"
                       src="img/slider-11.jpg"
                       alt="IMG_2565-min" /></figure>
                 </a></div>
-              <div class="swiper-slide"><a data-elementor-open-lightbox="yes"
-                  data-elementor-lightbox-slideshow="1cf89ff8"
-                  data-elementor-lightbox-title="IMG_2567-min"
-                  href="img/slider-12.jpg">
+              <div class="swiper-slide"><a data-fslightbox="sg1"
+                  href="img/big_pict/slide_12_big.jpg">
                   <figure class="swiper-slide-inner"><img class="swiper-slide-image"
                       src="img/slider-12.jpg"
                       alt="IMG_2567-min" /></figure>
                 </a></div>
-             
+
             </div>
-            <div class="elementor-swiper-button elementor-swiper-button-prev">
+            <div id="bb_prev" class="elementor-swiper-button elementor-swiper-button-prev">
               <i aria-hidden="true" class="fa fa-chevron-left"></i> <span
                 class="elementor-screen-only">Назад</span>
             </div>
-            <div class="elementor-swiper-button elementor-swiper-button-next">
+            <div id="bb_next" class="elementor-swiper-button elementor-swiper-button-next">
               <i aria-hidden="true" class="fa fa-chevron-right"></i> <span
                 class="elementor-screen-only">Далее</span>
             </div>
