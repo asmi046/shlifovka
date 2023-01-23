@@ -12,7 +12,7 @@ class HomeController extends Controller
         $categoriedWorks = [];
 
         foreach ($allWorks as $wr) {
-            $categoriedWorks[$wr->wokr_class][] = $wr; 
+            $categoriedWorks[$wr->wokr_class][] = $wr;
         }
 
         return view('index',[

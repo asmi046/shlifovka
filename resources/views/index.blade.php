@@ -2,7 +2,7 @@
 
 @section('title',"Автошлифовка в Курске - Все виды работ по шлифовке")
 @section('content')
-    
+
 
 
       <main id="main" class="site-main clr" role="main">
@@ -16,8 +16,8 @@
             @include('part.preim')
             @include('part.hard_auto')
             @include('part.work_type')
-            
-            
+
+
 
             <section
               class="has_eae_slider elementor-section elementor-top-section elementor-element elementor-element-7371ad8 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
@@ -31,7 +31,51 @@
                       data-id="6b86937" data-element_type="widget" data-widget_type="accordion.default">
                       <div class="elementor-widget-container">
                         <div class="elementor-accordion" role="tablist">
-                          <div class="elementor-accordion-item">
+
+                            @php
+                                $index = 1;
+                            @endphp
+                            @foreach ($works as $key => $value)
+                                <div class="elementor-accordion-item">
+                                    <div id="elementor-tab-title-1121" class="elementor-tab-title" data-tab="{{$index}}" role="tab"
+                                    aria-controls="elementor-tab-content-1121" aria-expanded="false">
+                                    <span class="elementor-accordion-icon elementor-accordion-icon-left" aria-hidden="true">
+                                        <span class="elementor-accordion-icon-closed"><i class="fas fa-plus"></i></span>
+                                        <span class="elementor-accordion-icon-opened"><i class="fas fa-minus"></i></span>
+                                    </span>
+                                    <a class="elementor-accordion-title" href="">{{$key}}</a>
+                                    </div>
+                                    <div id="elementor-tab-content-1121" class="elementor-tab-content elementor-clearfix"
+                                    data-tab="{{$index}}" role="tabpanel" aria-labelledby="elementor-tab-title-1121">
+                                    <table>
+                                        <tbody>
+                                        <tr>
+                                            <td><b>№</b></td>
+                                            <td><b>Наименование</b></td>
+                                            <td><b>Цена</b></td>
+                                        </tr>
+
+                                        @foreach ($value as $work)
+                                            <tr>
+                                            <td>{{ $loop->index + 1 }}</td>
+                                            <td>{{ $work->wokr }}</td>
+                                            <td>{{ $work->price }}</td>
+                                            </tr>
+                                        @endforeach
+
+
+                                        </tbody>
+                                    </table>
+                                    </div>
+                                </div>
+
+                                @php
+                                    $index++;
+                                @endphp
+
+                            @endforeach
+
+                          {{-- <div class="elementor-accordion-item">
                             <div id="elementor-tab-title-1121" class="elementor-tab-title" data-tab="1" role="tab"
                               aria-controls="elementor-tab-content-1121" aria-expanded="false">
                               <span class="elementor-accordion-icon elementor-accordion-icon-left" aria-hidden="true">
@@ -57,7 +101,7 @@
                                       <td>{{ $work->price }}</td>
                                     </tr>
                                   @endforeach
-                                  
+
 
                                 </tbody>
                               </table>
@@ -546,7 +590,8 @@
                                 </tbody>
                               </table>
                             </div>
-                          </div>
+                          </div> --}}
+
                         </div>
                       </div>
                     </div>
